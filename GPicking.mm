@@ -1078,7 +1078,7 @@
 <node CREATED="1477947379763" ID="ID_1275545802" MODIFIED="1477947388061" TEXT="Canceled"/>
 </node>
 </node>
-<node CREATED="1477923417461" FOLDED="true" ID="ID_17197179" MODIFIED="1477948293764" TEXT="PackList (inherit from ListBase)">
+<node CREATED="1477923417461" FOLDED="true" ID="ID_17197179" MODIFIED="1478030878176" TEXT="PackList (inherit from ListBase)">
 <node CREATED="1473253835377" ID="ID_214414744" MODIFIED="1477943486919" TEXT="protected PackListHeader">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1402,6 +1402,20 @@
 </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
+<node CREATED="1477944447935" FOLDED="true" ID="ID_1961032663" MODIFIED="1478030815784" TEXT="PackQuantity (packListDetailRecord)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Update the Quantity field, current status based on quantity Ordered on the current line
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1477944636259" ID="ID_1370144989" MODIFIED="1478030813315" TEXT="call base.Update(packListDetailRecord)"/>
+</node>
 <node CREATED="1473255195011" ID="ID_1519597596" MODIFIED="1477948283911" TEXT="Skip(packListDetailRecord)">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1455,7 +1469,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1477944613598" ID="ID_498097194" MODIFIED="1477947439605" TEXT="call GetListLineByProcessingSequence(packListDetailRecord)"/>
 </node>
-<node CREATED="1477946924357" ID="ID_1380448047" MODIFIED="1477947922308" TEXT="Complete()">
+<node CREATED="1477946924357" ID="ID_1380448047" MODIFIED="1478030622367" TEXT="Complete()">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1465,9 +1479,10 @@
       Complete the line, mark it as Packed without updating the quantity picked.&#160;&#160;It could be 0 picked (shortPicked) canceled.
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node CREATED="1473684837586" ID="ID_141997994" MODIFIED="1477947315595" TEXT="SetCancelStatus">
+<node CREATED="1473684837586" ID="ID_141997994" MODIFIED="1478030621076" TEXT="SetCancelStatus">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1477,7 +1492,8 @@
       Use SetStatus to align the list number with the details records
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1477939859781" ID="ID_860132865" MODIFIED="1477947615923" TEXT="call base.Update(packListDetailRecord);call base.SetStatus(packListHeaderRecord);"/>
 </node>
 </node>
@@ -1493,7 +1509,7 @@
 <node CREATED="1477947379763" ID="ID_765643681" MODIFIED="1477947388061" TEXT="Canceled"/>
 </node>
 </node>
-<node CREATED="1477923417461" ID="ID_1800863798" MODIFIED="1477947799582" TEXT="LoadList (inherit from ListBase)">
+<node CREATED="1477923417461" FOLDED="true" ID="ID_1800863798" MODIFIED="1478030881129" TEXT="LoadList (inherit from ListBase)">
 <node CREATED="1473253835377" ID="ID_1328928215" MODIFIED="1477947854946" TEXT="protected LoadListHeader">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1817,6 +1833,20 @@
 </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
+<node CREATED="1477944447935" ID="ID_719608631" MODIFIED="1478030873749" TEXT="LoadQuantity (loadListDetailRecord)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Update the Quantity field, current status based on quantity Ordered on the current line
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1477944636259" ID="ID_205969626" MODIFIED="1478030859080" TEXT="call base.Update(loadListDetailRecord)"/>
+</node>
 <node CREATED="1473255195011" ID="ID_1923274653" MODIFIED="1477948239387" TEXT="Skip(loadListDetailRecord)">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1870,7 +1900,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1477944613598" ID="ID_175502656" MODIFIED="1477948268200" TEXT="call GetListLineByProcessingSequence(loadListDetailRecord)"/>
 </node>
-<node CREATED="1477946924357" ID="ID_505044235" MODIFIED="1477947954473" TEXT="Complete()">
+<node CREATED="1477946924357" ID="ID_505044235" MODIFIED="1478030864398" TEXT="Complete()">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1883,9 +1913,10 @@
       canceled.
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node CREATED="1473684837586" ID="ID_894424786" MODIFIED="1477947315595" TEXT="SetCancelStatus">
+<node CREATED="1473684837586" ID="ID_894424786" MODIFIED="1478030860146" TEXT="SetCancelStatus">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1895,7 +1926,8 @@
       Use SetStatus to align the list number with the details records
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1477939859781" ID="ID_1498877140" MODIFIED="1477948249268" TEXT="call base.Update(loadListDetailRecord);call base.SetStatus(loadListDetailRecord);"/>
 </node>
 </node>
@@ -2171,7 +2203,7 @@
 </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1477944447935" ID="ID_313385517" MODIFIED="1477949079632" TEXT="PickQuantity (shipListDetailRecord)">
+<node CREATED="1477944447935" ID="ID_313385517" MODIFIED="1478031236955" TEXT="ShipQuantity (shipListDetailRecord)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2181,7 +2213,8 @@
       Update the Quantity field, current status based on quantity Ordered on the current line
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1477944636259" ID="ID_446336086" MODIFIED="1477949083651" TEXT="call base.Update(shipListDetailRecord)"/>
 </node>
 <node CREATED="1473255195011" ID="ID_1686591242" MODIFIED="1477949087635" TEXT="Skip(shipListDetailRecord)">
@@ -2262,6 +2295,19 @@
 </html></richcontent>
 <node CREATED="1477939859781" ID="ID_1859981307" MODIFIED="1477947341223" TEXT="call bas.Update(pickListDetailRecord)"/>
 </node>
+<node CREATED="1477944447935" FOLDED="true" ID="ID_1580974034" MODIFIED="1478030815784" TEXT="PackQuantity (packListDetailRecord)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Update the Quantity field, current status based on quantity Ordered on the current line
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1477944636259" ID="ID_931652352" MODIFIED="1478030813315" TEXT="call base.Update(packListDetailRecord)"/>
+</node>
 </node>
 <node CREATED="1477939283447" ID="ID_227333816" MODIFIED="1477939285003" TEXT="private"/>
 </node>
@@ -2277,7 +2323,373 @@
 <node CREATED="1477947379763" ID="ID_1529590860" MODIFIED="1477947388061" TEXT="Canceled"/>
 </node>
 </node>
-<node CREATED="1473253841886" FOLDED="true" ID="ID_57881568" MODIFIED="1477948823275" TEXT="public Class Per-Picking-Type">
+<node CREATED="1477923417461" ID="ID_1865898663" MODIFIED="1478032629644" TEXT="MoveList (inherit from ListBase)">
+<node CREATED="1473253835377" ID="ID_873821879" MODIFIED="1478032639533" TEXT="protected MoveListHeader">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      protected class inherits from List Header Base class.
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1473358673391" ID="ID_1060131238" MODIFIED="1477944079107" TEXT="Members">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1477944006546" ID="ID_428557968" MODIFIED="1478006416557" TEXT="spNaMe"/>
+<node CREATED="1477944010625" ID="ID_1268491720" MODIFIED="1477944015823" TEXT="headerBaseRecord"/>
+</node>
+<node CREATED="1473254128802" ID="ID_367218398" MODIFIED="1477944074307" TEXT="Methods">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1477921681633" ID="ID_1316413780" MODIFIED="1477944312490" TEXT="protected">
+<node CREATED="1473685966530" ID="ID_123961669" MODIFIED="1477922500510" TEXT="PickListNumberAdd">
+<node CREATED="1477685376378" ID="ID_1688611294" MODIFIED="1477923021749" TEXT="call Add(spName, headerBaseRecord)"/>
+</node>
+<node CREATED="1473684837586" ID="ID_1460090287" MODIFIED="1477947369422" TEXT="SetCancelStatus">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Use SetStatus to align the list number with the details records.&#160;&#160;Call the line details to cancel them too.
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1477939859781" ID="ID_1427796734" MODIFIED="1477939881786" TEXT="call Update(headerBaseRecord)"/>
+</node>
+<node CREATED="1473358926395" ID="ID_881528160" MODIFIED="1477944217915" TEXT="PickListNumberCancel">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The Cancel Pick will do the UnPick for the whole picklist, the &quot;UnPick-Config-Type&quot; determines what is the location to be used when doing a mass unpicking
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1477685376378" ID="ID_319482477" MODIFIED="1477939750327" TEXT="call Update(headerBaseRecord)"/>
+</node>
+<node CREATED="1473260538790" ID="ID_945931987" MODIFIED="1477922347154" TEXT="GetPickListNumberByPickListNumber">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1477656946096" ID="ID_1357105448" MODIFIED="1477922257010" TEXT="call GetByListNumber()"/>
+</node>
+<node CREATED="1473341487006" ID="ID_669118938" MODIFIED="1477922353522" TEXT="GetPickListNumberByOrderNumber">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1477657246867" ID="ID_1654110571" MODIFIED="1477922402267" TEXT="call GetByOrderNumber()"/>
+</node>
+<node CREATED="1477919702837" ID="ID_1933469788" MODIFIED="1477922196971" TEXT="GetPickListByStatus">
+<node CREATED="1477657149692" ID="ID_1423376744" MODIFIED="1477922377727" TEXT="call GetListByStatus()">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      retrieve information based on listType&#160;&#160;and in status of &quot; in ('stat1', 'stat2', 'stat3'...)
+    </p>
+    <p>
+      returns a list
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1473361089425" ID="ID_1120584964" MODIFIED="1478032783013" TEXT="IsMoveListNumberValid">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1477656946096" ID="ID_431416735" MODIFIED="1477922188408" TEXT="call IsListNumberValid()"/>
+</node>
+<node CREATED="1473260553121" ID="ID_1342901047" MODIFIED="1477922494538" TEXT="PickListNumberUpdate">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1477946782409" ID="ID_1208860758" MODIFIED="1477946792290" TEXT="call Update()"/>
+</node>
+</node>
+<node CREATED="1477921675104" ID="ID_519837562" MODIFIED="1477946768557" TEXT="private">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      SetStatus calculates its current status
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1473253835377" ID="ID_403563263" MODIFIED="1478032646864" TEXT="protected MoveListDetail">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      protected class inherits from List Detail Base class.
+    </p>
+    <p>
+      Holds all the fields defined in the database
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1473358673391" ID="ID_239760086" MODIFIED="1477944086740" TEXT="Members">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1477944029926" ID="ID_1179774529" MODIFIED="1478032708181" TEXT="moveListDetailRecord"/>
+<node CREATED="1477944582281" ID="ID_576103566" MODIFIED="1478032716582" TEXT="moveListHeaderRecord"/>
+</node>
+<node CREATED="1477939272046" ID="ID_904393609" MODIFIED="1477939398425" TEXT="Methods">
+<node CREATED="1477939280555" ID="ID_1837815008" MODIFIED="1477944351775" TEXT="protected">
+<node CREATED="1473255048369" ID="ID_1116567617" MODIFIED="1477943621976" TEXT="GetListLineByItem">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Get line By Item&#160;is dictated by the &quot;Fetch-Line-Config-Type&quot; configuration and &quot;View-Pick-Types&quot;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      It must call the &quot;IsOrderLineOnPickListValid&quot; to validate if the line is open and if the order-quantity has changed, if so update the line with the new quantity.
+    </p>
+    <p>
+      If the line does not exist, set the line to &quot;Cancelled&quot; and send an error back to the client. &quot;Invalid Item or line Number&quot;
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1477656946096" ID="ID_1075301037" MODIFIED="1477924566344" TEXT="call SPFetch byTypeListNumberItem"/>
+</node>
+<node CREATED="1473255048369" ID="ID_716779523" MODIFIED="1477943621632" TEXT="GetListLineByLineNumber">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Get line By Order Line Number&#160;is dictated by the &quot;Fetch-Line-Config-Type&quot; configuration and &quot;View-Pick-Types&quot;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      It must call the &quot;IsOrderLineOnPickListValid&quot; to validate if the line is open and if the order-quantity has changed, if so update the line with the new quantity.
+    </p>
+    <p>
+      If the line does not exist, set the line to &quot;Cancelled&quot; and send an error back to the client. &quot;Invalid Item or line Number&quot;
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1477656946096" ID="ID_333868279" MODIFIED="1477924599054" TEXT="call SPFetch byTypeListNumberLineNumber"/>
+</node>
+<node CREATED="1473255048369" ID="ID_486580270" MODIFIED="1478032737178" TEXT="GetListLineByProcessingSequence(moveListDetailRecord)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      GetListLineByProcessingSequence(DetailRecord) fetches the next record.
+    </p>
+    <p>
+      Next means either previous or next physical record.&#160;&#160;It depends on the sequence navigation (up or down) It defaults to down.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      It must call the &quot;IsOrderLineOnPickListValid&quot; to validate if the line is open and if the order-quantity has changed, if so update the line with the new quantity.
+    </p>
+    <p>
+      If the line does not exist, set the line to &quot;Cancelled&quot; and send an error back to the client. &quot;Invalid Item or line Number&quot;
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1477656946096" ID="ID_1525968894" MODIFIED="1477924655962" TEXT="call SPFetch byTypeListNumberProcessingSequenceNumber"/>
+</node>
+<node CREATED="1473255114319" ID="ID_314885857" MODIFIED="1477943621116" TEXT="GetLinesList">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      GetLineList is dictated by the &quot;Fetch-List-Config-Type&quot; configuration and &quot;View-Pick-Types&quot;
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1473257273522" ID="ID_737182491" MODIFIED="1477938802946" TEXT="call SPFetch byTypeListNumber">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Sort order is determined by ListDetailSortOrderBy
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1473255048369" ID="ID_1052480430" MODIFIED="1478032742787" TEXT="GetListLineByLineSequenceNumber(moveListDetailRecord)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      GetListLineByProcessingSequence(DetailRecord) fetches the next record.
+    </p>
+    <p>
+      Next means either previous or next physical record.&#160;&#160;It depends on the sequence navigation (up or down) It defaults to down.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      It must call the &quot;IsOrderLineOnPickListValid&quot; to validate if the line is open and if the order-quantity has changed, if so update the line with the new quantity.
+    </p>
+    <p>
+      If the line does not exist, set the line to &quot;Cancelled&quot; and send an error back to the client. &quot;Invalid Item or line Number&quot;
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1477656946096" ID="ID_1291897278" MODIFIED="1477940032622" TEXT="call SPFetch byTypeListNumberLineNumberSequenceNumber"/>
+</node>
+<node CREATED="1473361137718" ID="ID_28473623" MODIFIED="1478032749105" TEXT="IsOrderLineOnMoveListLineValid">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      It is valid, if it exists, has the status in any of the PickListStatusType(s)
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1477944447935" ID="ID_1503042815" MODIFIED="1478032754437" TEXT="PickQuantity (moveListDetailRecord)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Update the Quantity field, current status based on quantity Ordered on the current line
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1477944636259" ID="ID_683990629" MODIFIED="1478032766034" TEXT="call base.Update(moveListDetailRecord)"/>
+</node>
+<node CREATED="1473255195011" ID="ID_189887514" MODIFIED="1478032758250" TEXT="Skip(moveListDetailRecord)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Skip current line record, to be processed later
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      This method updates a PickDetail based on the View-Pick-Type and the casted Base Class.
+    </p>
+    <p>
+      You may even want to use an event handler for it
+    </p>
+    <p>
+      The detail line specifies its status -- if it still picking, picked or ...
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      one of the arguments indicates the WIP Detaild status (meaning that the user is pick, pack, cancel, unpick, unpack....)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Short Picked will receive less than ordered and sets the status to PICKED
+    </p>
+    <p>
+      OVERPICKED will be allowed if the &quot;Allow-OverPick-Type&quot; is set to &quot;Yes&quot; and if it is a Hard error or just informational
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      The Cancel Pick will do the UnPick for the item, the &quot;UnPick-Config-Type&quot; determines what is the location to be used when doing the unpicking
+    </p>
+    <p>
+      The detail determine the header status.
+    </p>
+    <p>
+      if line is CANCELED it will do the unpicking
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1477944613598" ID="ID_1500511744" MODIFIED="1478032770206" TEXT="call GetListLineByProcessingSequence(moveListDetailRecord)"/>
+</node>
+<node CREATED="1477946924357" ID="ID_1725925242" MODIFIED="1477947094403" TEXT="Complete()">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Complete the line, mark it as Picked without updating the quantity picked.&#160;&#160;It could be 0 picked (shortPicked) canceled.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1473684837586" ID="ID_1778777510" MODIFIED="1477947315595" TEXT="SetCancelStatus">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Use SetStatus to align the list number with the details records
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1477939859781" ID="ID_943500949" MODIFIED="1478032773287" TEXT="call bas.Update(moveListDetailRecord)"/>
+</node>
+</node>
+<node CREATED="1477939283447" ID="ID_795324127" MODIFIED="1477939285003" TEXT="private"/>
+</node>
+</node>
+<node CREATED="1477939636977" ID="ID_170538450" MODIFIED="1478032659671" TEXT="public MoveListStatusType enum ">
+<node CREATED="1477948117482" ID="ID_775380049" MODIFIED="1477949110107" TEXT="AllowedStartStatuses">
+<node CREATED="1477939675364" ID="ID_994345684" MODIFIED="1477939678999" TEXT="Open"/>
+</node>
+<node CREATED="1477939679947" ID="ID_1717652469" MODIFIED="1478032921251" TEXT="Picking"/>
+<node CREATED="1477939690176" ID="ID_1392440565" MODIFIED="1478032914634" TEXT="Picked"/>
+<node CREATED="1477947051199" ID="ID_1953399833" MODIFIED="1478032906666" TEXT="ShortPicked"/>
+<node CREATED="1477939679947" ID="ID_875858466" MODIFIED="1478032889294" TEXT="Moving"/>
+<node CREATED="1477939690176" ID="ID_1334601356" MODIFIED="1478032889295" TEXT="Moved"/>
+<node CREATED="1477947379763" ID="ID_524661836" MODIFIED="1477947388061" TEXT="Canceled"/>
+</node>
+</node>
+<node CREATED="1473253841886" FOLDED="true" ID="ID_57881568" MODIFIED="1478032614511" TEXT="public Class Per-Picking-Type">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2296,7 +2708,8 @@
       Which ever is chosen, the Header will execute this when its status is set to PICKED
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1473358717657" ID="ID_1825862998" MODIFIED="1473684832092" TEXT="CO">
 <font NAME="SansSerif" SIZE="12"/>
