@@ -25,8 +25,7 @@
       May Support -- plugins for co shipping or issue or transfer shipping
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1473253452560" ID="ID_789550270" MODIFIED="1473684832097" POSITION="left" TEXT="Front End">
 <font NAME="SansSerif" SIZE="12"/>
@@ -464,7 +463,7 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1473358673391" ID="ID_996347406" MODIFIED="1477923630560" TEXT="Members">
+<node CREATED="1473358673391" ID="ID_996347406" MODIFIED="1478027188129" TEXT="MemberS">
 <richcontent TYPE="NOTE"><html>
   <head>
     
