@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1473253424786" ID="ID_373929527" MODIFIED="1477336873532" TEXT="GPicking">
+<node CREATED="1473253424786" ID="ID_373929527" MODIFIED="1478004720287" TEXT="GPicking">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -25,7 +25,8 @@
       May Support -- plugins for co shipping or issue or transfer shipping
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1473253452560" ID="ID_789550270" MODIFIED="1473684832097" POSITION="left" TEXT="Front End">
 <font NAME="SansSerif" SIZE="12"/>
@@ -609,8 +610,7 @@
       if line is CANCELED it will do the unpicking
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1473255048369" ID="ID_141302113" MODIFIED="1477939231205" TEXT="GetListLineByItem">
@@ -632,8 +632,7 @@
       If the line does not exist, set the line to &quot;Cancelled&quot; and send an error back to the client. &quot;Invalid Item or line Number&quot;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1477656946096" ID="ID_1336430715" MODIFIED="1477924566344" TEXT="call SPFetch byTypeListNumberItem"/>
 </node>
@@ -656,8 +655,7 @@
       If the line does not exist, set the line to &quot;Cancelled&quot; and send an error back to the client. &quot;Invalid Item or line Number&quot;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1477656946096" ID="ID_538860719" MODIFIED="1477924599054" TEXT="call SPFetch byTypeListNumberLineNumber"/>
 </node>
@@ -683,8 +681,7 @@
       If the line does not exist, set the line to &quot;Cancelled&quot; and send an error back to the client. &quot;Invalid Item or line Number&quot;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1477656946096" ID="ID_815045291" MODIFIED="1477924655962" TEXT="call SPFetch byTypeListNumberProcessingSequenceNumber"/>
 </node>
@@ -698,8 +695,7 @@
       GetLineList is dictated by the &quot;Fetch-List-Config-Type&quot; configuration and &quot;View-Pick-Types&quot;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1473257273522" ID="ID_347699796" MODIFIED="1477938802946" TEXT="call SPFetch byTypeListNumber">
 <richcontent TYPE="NOTE"><html>
@@ -711,8 +707,7 @@
       Sort order is determined by ListDetailSortOrderBy
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
@@ -732,8 +727,7 @@
       protected class inherits from List Header Base class.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1473358673391" ID="ID_53898440" MODIFIED="1477944079107" TEXT="Members">
 <font NAME="SansSerif" SIZE="12"/>
@@ -756,8 +750,7 @@
       Use SetStatus to align the list number with the details records.&#160;&#160;Call the line details to cancel them too.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1477939859781" ID="ID_344838352" MODIFIED="1477939881786" TEXT="call Update(headerBaseRecord)"/>
 </node>
 <node CREATED="1473358926395" ID="ID_1190725495" MODIFIED="1477944217915" TEXT="PickListNumberCancel">
@@ -770,8 +763,7 @@
       The Cancel Pick will do the UnPick for the whole picklist, the &quot;UnPick-Config-Type&quot; determines what is the location to be used when doing a mass unpicking
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1477685376378" ID="ID_1402905916" MODIFIED="1477939750327" TEXT="call Update(headerBaseRecord)"/>
 </node>
@@ -819,8 +811,7 @@
       SetStatus calculates its current status
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -837,8 +828,7 @@
       Holds all the fields defined in the database
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1473358673391" ID="ID_1891062169" MODIFIED="1477944086740" TEXT="Members">
 <font NAME="SansSerif" SIZE="12"/>
@@ -866,8 +856,7 @@
       If the line does not exist, set the line to &quot;Cancelled&quot; and send an error back to the client. &quot;Invalid Item or line Number&quot;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1477656946096" ID="ID_560191098" MODIFIED="1477924566344" TEXT="call SPFetch byTypeListNumberItem"/>
 </node>
@@ -890,8 +879,7 @@
       If the line does not exist, set the line to &quot;Cancelled&quot; and send an error back to the client. &quot;Invalid Item or line Number&quot;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1477656946096" ID="ID_393004773" MODIFIED="1477924599054" TEXT="call SPFetch byTypeListNumberLineNumber"/>
 </node>
@@ -917,8 +905,7 @@
       If the line does not exist, set the line to &quot;Cancelled&quot; and send an error back to the client. &quot;Invalid Item or line Number&quot;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1477656946096" ID="ID_267456704" MODIFIED="1477924655962" TEXT="call SPFetch byTypeListNumberProcessingSequenceNumber"/>
 </node>
@@ -932,8 +919,7 @@
       GetLineList is dictated by the &quot;Fetch-List-Config-Type&quot; configuration and &quot;View-Pick-Types&quot;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1473257273522" ID="ID_1203477504" MODIFIED="1477938802946" TEXT="call SPFetch byTypeListNumber">
 <richcontent TYPE="NOTE"><html>
@@ -971,8 +957,7 @@
       If the line does not exist, set the line to &quot;Cancelled&quot; and send an error back to the client. &quot;Invalid Item or line Number&quot;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1477656946096" ID="ID_1621896501" MODIFIED="1477940032622" TEXT="call SPFetch byTypeListNumberLineNumberSequenceNumber"/>
 </node>
@@ -986,8 +971,7 @@
       It is valid, if it exists, has the status in any of the PickListStatusType(s)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1477944447935" ID="ID_925321096" MODIFIED="1477944575291" TEXT="PickQuantity (pickListDetailRecord)">
@@ -1000,8 +984,7 @@
       Update the Quantity field, current status based on quantity Ordered on the current line
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1477944636259" ID="ID_1453110414" MODIFIED="1477946834457" TEXT="call base.Update(pickListDetailRecord)"/>
 </node>
 <node CREATED="1473255195011" ID="ID_1708220186" MODIFIED="1477946957742" TEXT="Skip(pickListDetailRecord)">
@@ -1053,8 +1036,7 @@
       if line is CANCELED it will do the unpicking
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1477944613598" ID="ID_1373215169" MODIFIED="1477946904045" TEXT="call GetListLineByProcessingSequence(pickListDetailRecord)"/>
 </node>
@@ -1068,8 +1050,7 @@
       Complete the line, mark it as Picked without updating the quantity picked.&#160;&#160;It could be 0 picked (shortPicked) canceled.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1473684837586" ID="ID_572004222" MODIFIED="1477947315595" TEXT="SetCancelStatus">
 <richcontent TYPE="NOTE"><html>
@@ -1081,8 +1062,7 @@
       Use SetStatus to align the list number with the details records
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1477939859781" ID="ID_1710579503" MODIFIED="1477947341223" TEXT="call bas.Update(pickListDetailRecord)"/>
 </node>
 </node>
@@ -1110,8 +1090,7 @@
       protected class inherits from List Header Base class.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1473358673391" ID="ID_1270586154" MODIFIED="1477944092934" TEXT="Members">
 <font NAME="SansSerif" SIZE="12"/>
@@ -1132,8 +1111,7 @@
       Allow the PackList to call a SP prior to process the Packing if the Order (PickList) did not exist only.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1473260553121" ID="ID_439406661" MODIFIED="1477943751167" TEXT="PackListNumberUpdate">
@@ -1227,8 +1205,7 @@
       Holds all the fields defined in the database
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1473358673391" ID="ID_1282454119" MODIFIED="1473684832094" TEXT="Class Members">
 <font NAME="SansSerif" SIZE="12"/>
@@ -1409,8 +1386,7 @@
       If the line does not exist, set the line to &quot;Cancelled&quot; and send an error back to the client. &quot;Invalid Item or line Number&quot;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1477656946096" ID="ID_1223996887" MODIFIED="1477940032622" TEXT="call SPFetch byTypeListNumberLineNumberSequenceNumber"/>
 </node>
@@ -1476,8 +1452,7 @@
       if line is CANCELED it will do the unpicking
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1477944613598" ID="ID_498097194" MODIFIED="1477947439605" TEXT="call GetListLineByProcessingSequence(packListDetailRecord)"/>
 </node>
@@ -1491,8 +1466,7 @@
       Complete the line, mark it as Packed without updating the quantity picked.&#160;&#160;It could be 0 picked (shortPicked) canceled.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1473684837586" ID="ID_141997994" MODIFIED="1477947315595" TEXT="SetCancelStatus">
 <richcontent TYPE="NOTE"><html>
@@ -1531,8 +1505,7 @@
       protected class inherits from List Header Base class.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1473358673391" ID="ID_573214314" MODIFIED="1477944092934" TEXT="Members">
 <font NAME="SansSerif" SIZE="12"/>
@@ -1911,8 +1884,7 @@
       canceled.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1473684837586" ID="ID_894424786" MODIFIED="1477947315595" TEXT="SetCancelStatus">
 <richcontent TYPE="NOTE"><html>
@@ -2131,8 +2103,7 @@
       If the line does not exist, set the line to &quot;Cancelled&quot; and send an error back to the client. &quot;Invalid Item or line Number&quot;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1477656946096" ID="ID_823187868" MODIFIED="1477924655962" TEXT="call SPFetch byTypeListNumberProcessingSequenceNumber"/>
 </node>
@@ -2184,8 +2155,7 @@
       If the line does not exist, set the line to &quot;Cancelled&quot; and send an error back to the client. &quot;Invalid Item or line Number&quot;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1477656946096" ID="ID_1096856025" MODIFIED="1477940032622" TEXT="call SPFetch byTypeListNumberLineNumberSequenceNumber"/>
 </node>
@@ -2327,8 +2297,7 @@
       Which ever is chosen, the Header will execute this when its status is set to PICKED
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1473358717657" ID="ID_1825862998" MODIFIED="1473684832092" TEXT="CO">
 <font NAME="SansSerif" SIZE="12"/>
