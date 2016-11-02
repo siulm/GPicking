@@ -560,6 +560,19 @@
 <node CREATED="1473254205271" ID="ID_526550387" MODIFIED="1477923606675" TEXT="Methods">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1477923643887" ID="ID_773126306" MODIFIED="1477944307215" TEXT="protected">
+<node CREATED="1473685966530" ID="ID_1000437771" MODIFIED="1478118783771" TEXT="Add (spName, headerBaseRecord)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      If
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node CREATED="1473255195011" ID="ID_502852135" MODIFIED="1477939308654" TEXT="Update(detailBaseRecord)">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -612,7 +625,7 @@
 </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1473255048369" ID="ID_141302113" MODIFIED="1477939231205" TEXT="GetListLineByItem">
+<node CREATED="1473255048369" ID="ID_141302113" MODIFIED="1478118745860" TEXT="GetListLineByItem">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -631,11 +644,12 @@
       If the line does not exist, set the line to &quot;Cancelled&quot; and send an error back to the client. &quot;Invalid Item or line Number&quot;
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1477656946096" ID="ID_1336430715" MODIFIED="1477924566344" TEXT="call SPFetch byTypeListNumberItem"/>
 </node>
-<node CREATED="1473255048369" ID="ID_1477904533" MODIFIED="1477939231213" TEXT="GetListLineByLineNumber">
+<node CREATED="1473255048369" ID="ID_1477904533" MODIFIED="1478118745613" TEXT="GetListLineByLineNumber">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -654,11 +668,12 @@
       If the line does not exist, set the line to &quot;Cancelled&quot; and send an error back to the client. &quot;Invalid Item or line Number&quot;
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1477656946096" ID="ID_538860719" MODIFIED="1477924599054" TEXT="call SPFetch byTypeListNumberLineNumber"/>
 </node>
-<node CREATED="1473255048369" ID="ID_1308276322" MODIFIED="1477939231222" TEXT="GetListLineByProcessingSequence(DetailRecord)">
+<node CREATED="1473255048369" ID="ID_1308276322" MODIFIED="1478118745409" TEXT="GetListLineByProcessingSequence(DetailRecord)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -680,11 +695,12 @@
       If the line does not exist, set the line to &quot;Cancelled&quot; and send an error back to the client. &quot;Invalid Item or line Number&quot;
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1477656946096" ID="ID_815045291" MODIFIED="1477924655962" TEXT="call SPFetch byTypeListNumberProcessingSequenceNumber"/>
 </node>
-<node CREATED="1473255114319" ID="ID_1672352697" MODIFIED="1477938865632" TEXT="GetLinesList">
+<node CREATED="1473255114319" ID="ID_1672352697" MODIFIED="1478118744917" TEXT="GetLinesList">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -694,7 +710,8 @@
       GetLineList is dictated by the &quot;Fetch-List-Config-Type&quot; configuration and &quot;View-Pick-Types&quot;
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1473257273522" ID="ID_347699796" MODIFIED="1477938802946" TEXT="call SPFetch byTypeListNumber">
 <richcontent TYPE="NOTE"><html>
@@ -715,7 +732,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1477923417461" ID="ID_71223236" MODIFIED="1477943828601" TEXT="PickList (inherit from ListBase)">
+<node CREATED="1477923417461" FOLDED="true" ID="ID_71223236" MODIFIED="1478102459310" TEXT="PickList (inherit from ListBase)">
 <node CREATED="1473253835377" ID="ID_225997652" MODIFIED="1477939613487" TEXT="protected PickListHeader">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1945,7 +1962,7 @@
 <node CREATED="1477947379763" ID="ID_1410037099" MODIFIED="1477947388061" TEXT="Canceled"/>
 </node>
 </node>
-<node CREATED="1477923417461" ID="ID_328089767" MODIFIED="1477948830908" TEXT="ShipList (inherit from ListBase)">
+<node CREATED="1477923417461" FOLDED="true" ID="ID_328089767" MODIFIED="1478102453866" TEXT="ShipList (inherit from ListBase)">
 <node CREATED="1473253835377" ID="ID_310001512" MODIFIED="1477948841954" TEXT="protected ShipListHeader">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -2323,7 +2340,7 @@
 <node CREATED="1477947379763" ID="ID_1529590860" MODIFIED="1477947388061" TEXT="Canceled"/>
 </node>
 </node>
-<node CREATED="1477923417461" ID="ID_1865898663" MODIFIED="1478032629644" TEXT="MoveList (inherit from ListBase)">
+<node CREATED="1477923417461" FOLDED="true" ID="ID_1865898663" MODIFIED="1478102451855" TEXT="MoveList (inherit from ListBase)">
 <node CREATED="1473253835377" ID="ID_873821879" MODIFIED="1478032639533" TEXT="protected MoveListHeader">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -2689,7 +2706,7 @@
 <node CREATED="1477947379763" ID="ID_524661836" MODIFIED="1477947388061" TEXT="Canceled"/>
 </node>
 </node>
-<node CREATED="1473253841886" FOLDED="true" ID="ID_57881568" MODIFIED="1478032614511" TEXT="public Class Per-Picking-Type">
+<node CREATED="1473253841886" ID="ID_57881568" MODIFIED="1478102434301" TEXT="public Class Per-Picking-Type">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2711,7 +2728,104 @@
 </html>
 </richcontent>
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1473358717657" ID="ID_1825862998" MODIFIED="1473684832092" TEXT="CO">
+<node CREATED="1473358719462" ID="ID_89750756" MODIFIED="1478118978542" TEXT="DMOVE">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1478118979723" ID="ID_893309022" MODIFIED="1478119008790" TEXT="ViewpointConfig">
+<node CREATED="1478118857535" ID="ID_551749287" MODIFIED="1478119163637" TEXT="MoveListNumberModeConfig">
+<node CREATED="1478118495944" ID="ID_1398519861" MODIFIED="1478118878554" TEXT="Create">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Create -- If Config Set To Create, then if MoveList Does not exist then create, otherwise if valid MoveList use it.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1478118538225" ID="ID_996300046" MODIFIED="1478118898727" TEXT="Validate">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Validate -- If Config Set To Validate, then if MoveList Does not exist or in invalid staus then ERROR, otherwise if valid MoveList use it.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1478114723513" ID="ID_1835197641" MODIFIED="1478119177559" TEXT="VETypeConfig">
+<node CREATED="1478114220365" ID="ID_1530599151" MODIFIED="1478114222983" TEXT="PICK"/>
+<node CREATED="1473358979225" ID="ID_1781171798" MODIFIED="1478114385564" TEXT="MOVE">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1478114491393" ID="ID_866437684" MODIFIED="1478114881334" TEXT="VDMove (Inherited from VDBAse)">
+<node CREATED="1478118809086" ID="ID_1321001744" MODIFIED="1478118827535" TEXT="visible fields">
+<node CREATED="1478114710690" ID="ID_1783331948" MODIFIED="1478114722345" TEXT="VEZone"/>
+<node CREATED="1478114723513" ID="ID_769612597" MODIFIED="1478119190433" TEXT="VEType">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Use either VETypeConfig modes
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1478114435711" ID="ID_1567368015" MODIFIED="1478114616549" TEXT="VEMoveListNumber"/>
+<node CREATED="1478114569784" ID="ID_434412399" MODIFIED="1478114630133" TEXT="VEToLoc"/>
+<node CREATED="1478114577532" ID="ID_350088917" MODIFIED="1478114639976" TEXT="VEItem"/>
+<node CREATED="1478114581582" ID="ID_757723688" MODIFIED="1478114644193" TEXT="VEUOM"/>
+<node CREATED="1478114585388" ID="ID_1176532517" MODIFIED="1478114650216" TEXT="VEFromLoc"/>
+<node CREATED="1478114593741" ID="ID_1421225249" MODIFIED="1478114654244" TEXT="VELot"/>
+<node CREATED="1478114661357" ID="ID_358813284" MODIFIED="1478114664445" TEXT="VEQty"/>
+<node CREATED="1478114597508" ID="ID_128204680" MODIFIED="1478114658621" TEXT="VESerial"/>
+</node>
+<node CREATED="1478118815319" ID="ID_493658927" MODIFIED="1478118833143" TEXT="hidden fields">
+<node CREATED="1478118857535" ID="ID_50453691" MODIFIED="1478119174946" TEXT="MoveListNumberMode">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Create or validate, use MoveListNumberModeConfig mode configuration
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1473358769451" ID="ID_1117398967" MODIFIED="1477684616409" TEXT="Members">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1478114838702" ID="ID_889067647" MODIFIED="1478114870257" TEXT="VDMoveShadow">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Contains the same fields a
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1473358772734" ID="ID_1662609005" MODIFIED="1477684626598" TEXT="Methods">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1473358717657" FOLDED="true" ID="ID_1825862998" MODIFIED="1478114182734" TEXT="CO">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1473358754179" ID="ID_1980565876" MODIFIED="1473684832092" TEXT="HeaderClass">
 <font NAME="SansSerif" SIZE="12"/>
@@ -2815,7 +2929,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1473254103532" ID="ID_1932761795" MODIFIED="1473684832092" TEXT="TO">
+<node CREATED="1473254103532" FOLDED="true" ID="ID_1932761795" MODIFIED="1478114184806" TEXT="TO">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1473358754179" ID="ID_896614036" MODIFIED="1473684832092" TEXT="HeaderClass">
 <font NAME="SansSerif" SIZE="12"/>
@@ -2905,7 +3019,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1473358719462" ID="ID_519931338" MODIFIED="1473684832092" TEXT="JOB">
+<node CREATED="1473358719462" FOLDED="true" ID="ID_519931338" MODIFIED="1478114187320" TEXT="JOB">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1473358754179" ID="ID_240673482" MODIFIED="1473684832092" TEXT="HeaderClass">
 <font NAME="SansSerif" SIZE="12"/>
@@ -2970,73 +3084,6 @@
 <node CREATED="1473685203913" ID="ID_1080778715" MODIFIED="1477685002878" TEXT="Issuing"/>
 <node CREATED="1473685203913" ID="ID_1054071723" MODIFIED="1477685016651" TEXT="Issued"/>
 <node CREATED="1473254762918" ID="ID_1211960178" MODIFIED="1477685038008" TEXT="Canceled">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-</node>
-</node>
-<node CREATED="1473358719462" ID="ID_89750756" MODIFIED="1477684529344" TEXT="DMOVE">
-<font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1473358754179" ID="ID_410466373" MODIFIED="1473684832092" TEXT="HeaderClass">
-<font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1473358769451" ID="ID_1117398967" MODIFIED="1477684616409" TEXT="Members">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1473358772734" ID="ID_1662609005" MODIFIED="1477684626598" TEXT="Methods">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1473358963985" ID="ID_273508941" MODIFIED="1477684744458" TEXT="PickTo-Config-Type">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      UnPick-Config-Type&#160;&#160;-- unpicks to either the location the items were picked from (FromLoc) or to a location the user specifies (ToLoc)
-    </p>
-  </body>
-</html></richcontent>
-<font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1473358979225" ID="ID_512411676" MODIFIED="1473684832095" TEXT="MOVE">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node CREATED="1473254728336" ID="ID_100061746" MODIFIED="1473685342801" TEXT="Picking-Status-Types">
-<font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1473685376992" ID="ID_1643030507" MODIFIED="1473685379865" TEXT="Open"/>
-<node CREATED="1473254744727" ID="ID_1710296604" MODIFIED="1473684832097" TEXT="Picking">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1473254750887" ID="ID_537299063" MODIFIED="1473684832097" TEXT="Picked">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1473685203913" ID="ID_353942971" MODIFIED="1477685065395" TEXT="Moving"/>
-<node CREATED="1473685203913" ID="ID_374178471" MODIFIED="1477684547248" TEXT="Moved"/>
-<node CREATED="1473254762918" ID="ID_266608669" MODIFIED="1477685068044" TEXT="Canceled">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-</node>
-<node CREATED="1473358761207" ID="ID_730656034" MODIFIED="1473684832092" TEXT="DetailClass">
-<font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1473358769451" ID="ID_1547648787" MODIFIED="1477684616409" TEXT="Members">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1473358772734" ID="ID_1103355441" MODIFIED="1477684626598" TEXT="Methods">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1473254728336" ID="ID_435922389" MODIFIED="1473685342801" TEXT="Picking-Status-Types">
-<font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1473685376992" ID="ID_1375089377" MODIFIED="1473685379865" TEXT="Open"/>
-<node CREATED="1473254744727" ID="ID_1331800342" MODIFIED="1473684832097" TEXT="Picking">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1473254750887" ID="ID_561258754" MODIFIED="1473684832097" TEXT="Picked">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1473685203913" ID="ID_1252186775" MODIFIED="1477685056535" TEXT="Moving"/>
-<node CREATED="1473685203913" ID="ID_1544110101" MODIFIED="1477684547248" TEXT="Moved"/>
-<node CREATED="1473254762918" ID="ID_1011520707" MODIFIED="1477685041355" TEXT="Canceled">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
